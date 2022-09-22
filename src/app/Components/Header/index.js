@@ -27,6 +27,7 @@ const Header = () => {
             )}
           </span>
         </div>
+
         <div
           onClick={() => setOpen(!open)}
           className="text-3xl absolute text-white right-8 top-6 cursor-pointer lg:hidden"
@@ -90,9 +91,11 @@ const Header = () => {
               <MdLockOutline size={20} /> Log In
             </button>
           </Link>
-          <button className="p-2 px-5 ml-4 flex gap-2 items-center outline-none border-none text-white hover:text-gray-400 duration-100 transition-all ease-in">
-            <AiOutlineShoppingCart size={20} /> Cart
-          </button>
+          <div className="hidden lg:block">
+            <button className="  p-2 px-5 ml-4 flex gap-2 items-center outline-none border-none text-white hover:text-gray-400 duration-100 transition-all ease-in">
+              <AiOutlineShoppingCart size={20} /> Cart
+            </button>
+          </div>
         </ul>
       </div>
     </div>
