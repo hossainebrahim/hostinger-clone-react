@@ -93,7 +93,7 @@ let planOne = [
     title: "Special  ",
   },
   {
-    id: 15,
+    id: 19,
     name: "Database",
     title: "FAQ  ",
   },
